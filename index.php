@@ -10,7 +10,7 @@ function json(url) {
 }
 
 $(document).ready(function(){
-    let apiKey = 'adec259017840e2586876dc965f4b9ee1e05a565c9fd77fe41212440';
+    let apiKey = 'your api here';
     json(`https://api.ipdata.co?api-key=${apiKey}`).then(data => {
         console.log(data.ip);
         console.log(data.city);
